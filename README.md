@@ -1,4 +1,4 @@
-# Adapted Ansible Process for Polygon RPC Node (Mumbai)
+# Ansible Process for Polygon RPC Node (Mumbai)
 
 ## Requirements
 
