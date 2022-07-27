@@ -1,0 +1,7 @@
+[sentry] 
+sentry ansible_host=YOUR-REMOTE-NODE-MACHINE-IP
+
+[all:vars] 
+ansible_user=ubuntu 
+ansible_port=22222 
+ansible_ssh_private_key_file="~/.ssh/id_rsa" 
