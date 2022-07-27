@@ -35,7 +35,7 @@ Clone & cd into repo on control machine
 git clone https://github.com/Throbac-Labs/polygon-ansible.git
 cd polygon-ansible
 ```
-edit "inventory" to add your Polygon RPC Node server IP Address
+Edit "inventory" to add your Polygon RPC Node server IP Address
 ```
 nano inventory
 sentry ansible_host=YOUR-POLYGON-NODE-SERVER-IP
