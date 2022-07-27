@@ -30,7 +30,7 @@ This server set up will install/create/enable the following:
 
 ## Full Node Setup for Testnet-v4
 
-Clone & cd into repo
+Clone & cd into repo on control machine
 ```
 git clone https://github.com/Throbac-Labs/polygon-ansible.git
 cd polygon-ansible
