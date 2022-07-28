@@ -11,7 +11,7 @@
 	- 8core 16gb
 	- Heimdall testnet = ~40GB
 	- Bor testnet = ~160GB
-	- need free floating 120GB if plan to download & tar snapshot
+	- need 120GB headroom if plan to download & tar snapshot all in same directory (ie ~350GB total)
 - Open Ports (remote machine)
 	- 26656
 	- 30303
