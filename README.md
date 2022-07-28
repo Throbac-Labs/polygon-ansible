@@ -98,7 +98,8 @@ Bor example
 ```
 wget -c https://matic-blockchain-snapshots.s3-accelerate.amazonaws.com/matic-mumbai/bor-fullnode-snapshot-2022-07-26.tar.gz
 # tar -xzvf <snapshot file> -C <BOR_DATA_DIRECTORY>
-tar -xzvf bor-fullnode-snapshot-2022-07-26.tar.gz -C /mnt/bordata/.bor/data/
+# ex1 / tar -xzvf bor-fullnode-snapshot-2022-07-26.tar.gz -C /mnt/bordata/.bor/data/
+wget -c https://snapshot.stakepool.dev.br/bor-pruned-mumbai.tar.gz -O - | tar -xzf - -C ~/.bor/data/bor/
 # if you use a different directory than default as i have above, make sure it exists with proper permissions & you add the path to ~/node/bor/start.sh
 ```
 
